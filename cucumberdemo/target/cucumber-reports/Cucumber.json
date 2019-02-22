@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Test login with valid credentials",
+        "description": "",
+        "id": "test-web-applicaiton;test-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5679772124,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Chrome and start the web application",
+            "match": {
+              "location": "StepDefination.open_Chrome_and_start_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 323287473,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "StepDefination.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117394813,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should able to login to system",
+            "match": {
+              "location": "StepDefination.user_should_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Web Applicaiton",
+    "description": "",
+    "id": "test-web-applicaiton",
+    "keyword": "Feature",
+    "uri": "allfeatures/WebApp.feature"
+  }
+]
